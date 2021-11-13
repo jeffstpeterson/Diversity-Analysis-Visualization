@@ -6,61 +6,70 @@ This project is a final project for the Data Analytics Bootcamp at UNC at Chapel
 
 Active 
 ## Project Intro/Objective
-The purpose of this project is determine the correlation between a coproration's Diveristy, Equity and Inclusion success and the bottom line. Also will be pulling snetiment analysis as part of the exercise. 
+The purpose of this project is determine the correlation between a coproration's Diveristy, Equity and Inclusion (DE&I) success and the bottom line. Also will be pulling snetiment analysis as part of the exercise. 
 
-Check to see how they rank now and then 20 years ago. The company ranked #1 in 1990 wasn't spending money the company ranked 10 now is. Can I get the spending of DEI in these organizations. Build upon examples of storyboard and visualizations. This is growing part of the project. 
+"Diversity and Inclusion isn't just the right thing to do, it's good for business and our economy." Joyce Beatty, U.S Representative. (Forbes May 2019.)In today's world a DE&I program is socially relevant. The question is does this social relavance translate into an defined and positive impact on the company itself?  To put it another way, does DE&I success equal more profitability for a company?  
 
-In today's world a DE&I program is socially relevant. The question is does this social relavance translate into an defined impact on the the profit of the corprotion. More imporetantly does a company with a develped DE&I see measured results in the corporations metrics on the Profit and Loss statement. 
+This project aims to attempt to answer that through a data analysis project. This project will utilize several data analysis methods including visualization and sentiment analysis to uncover the answer.
 
 ### Methods Used
-* Machine Learning-Regression and Sentiment Analysis
-* Data Visualization
-* Predictive Modeling
 * Python Data Cleaning
+* Data Visualization
 
 ### Technologies
-* R 
-* Python
+
+* Python, Pandas, jupyter
 * Natural Language Processing
-* PostGres, MySql
-* Pandas, jupyter
 * Excel/csv
 * 
 
 ## Project Description
 
-Will take both a quantitaitive (statistical) and qualitative (meanings and word) approach to this project. 
+Initially the project started with an examination of the FAANG (Facebook, Amazon, Apple, Netflix, and Alphabet (Google)) group. However after pulling their financial data, the correlation to DE&I was tenuous at best as their rankings in DE&I was not a consistent factor. 
 
-Started project by downloading 11 historical financial data sets. FAANG, Honeywell, PayPal, Tesla,
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+The new phase of the project started with finding rankings for DE&I. Utilizing Forbes 2021 America's Best Employers for Diversity (see#2) ten companies were pulled for the study. 
+In order to utilize consistently similiar data, non public companies or educational instituitions,  were not utilized for the study so the order# below is the public companies rankings on this report. There will be a comparison between Top 5 
+and Bottom 5. 
+
+Top 5
+#1 Jones Lang Lasalle Inc (JLL) 
+#2 Booz Allen Hamilton(BAH)
+#9 Aflac(AFL)
+#11 VMware(VMW)
+#13 Paypal(PYPL)
+
+Bottom 5
+#499 Johnson Controls (JCI)
+#498 Arcbest(ARCB)
+#496 Synnex(SNX)
+#495 International Paper (IP)
+#493 Texas Roadhouse (TXRH)
+
+Then, utilizing Barchart.com, various financial data was pulled. 1) Historical Stock Prices going back to January 2017 2) Various analyst ratings and profit/loss data. P/L data included market caplitlization, shares outstanding, annnual sales, annaul net income, 1-5 year returns and earnings growth. 
+
+After downloading data and doing data clean up and merging in pandas, the data was ready for import into Tableau. 
+
+The goal of the data visualization first was to establish any differance between the Top 5 on Forbes rankings and the Bottom 5 on Forbes rankings. 
+*The initial analysis does show some correlation between the Top 5 and Bottom 5
+*However one question still need exploring is whether the this is due to larger profit businesses (Financial and Insurance) are on the Top 5. i.e. chicken or the egg?
+
+
+Next part of the project is to determine a sentiment analysis differance
+
+First-Need to determine where to get data-Web scraper didn't work intiially. Decided to do a manual approach and pulled JLL and IP as representatives of Top and Bottom. 
+
+ROADBLOCKS
+*Doing the analysis on sentiment. 
+*Webscraping
 
 ## Needs of this project
 
-- frontend developers
+- 
 - data exploration/descriptive statistics
 - data processing/cleaning
 - statistical modeling
 - writeup/reporting
-- etc. (be as specific as possible)
 
-## Getting Started
-
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-
-    *If using offline data mention that and how they may obtain the data from the froup)*
-    
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
-
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
-
+*https://www.forbes.com/best-employers-diversity/#83534629b9e9
 ## Contact
 
