@@ -1,5 +1,5 @@
 
-# HR Data Analyis DEI
+# Diversity Analysis Visualization  
 This project is a final project for the Data Analytics Bootcamp at UNC at Chapel Hill. 
 
 #### -- Project Status: [Active, On-Hold, Completed]
