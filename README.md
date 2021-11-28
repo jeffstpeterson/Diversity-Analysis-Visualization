@@ -45,7 +45,7 @@ Bottom 5
 #495 International Paper (IP)
 #493 Texas Roadhouse (TXRH)
 
-Then, utilizing Barchart.com, various financial data was pulled. 1) Historical Stock Prices going back to January 2017 2) Various analyst ratings and profit/loss data. P/L data included market caplitlization, shares outstanding, annnual sales, annaul net income, 1-5 year returns and earnings growth. 
+Then, utilizing Barchart.com, various financial data was pulled. 1) Historical Stock Prices going back to January 2017 2) Various analyst ratings and profit/loss data. P/L data included market capitalization, shares outstanding, annnual sales, annaul net income, 1-5 year returns and earnings growth. 
 
 After downloading data and doing data clean up and merging in pandas, the data was ready for import into Tableau. 
 
@@ -54,9 +54,13 @@ The goal of the data visualization first was to establish any differance between
 *However one question still need exploring is whether the this is due to larger profit businesses (Financial and Insurance) are on the Top 5. i.e. chicken or the egg?
 
 
+![EPS Growth](images/EPS Growth LY.png)
+
 Next part of the project is to determine a sentiment analysis differance
 
 First-Need to determine where to get data-Web scraper didn't work intiially. Decided to do a manual approach and pulled JLL and IP as representatives of Top and Bottom. 
+
+
 
 ROADBLOCKS
 *Doing the analysis on sentiment. 
@@ -71,5 +75,8 @@ ROADBLOCKS
 - writeup/reporting
 
 *https://www.forbes.com/best-employers-diversity/#83534629b9e9
+
 ## Contact
 
+Jeff Peterson
+jeffstpeterson@icloud.com 
