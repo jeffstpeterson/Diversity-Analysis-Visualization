@@ -54,7 +54,8 @@ The goal of the data visualization first was to establish any differance between
 *However one question still need exploring is whether the this is due to larger profit businesses (Financial and Insurance) are on the Top 5. i.e. chicken or the egg?
 
 
-![EPS Growth](images/EPS Growth LY.png)
+![EPS Growth](https://github.com/jeffstpeterson/Diversity-Analysis-Visualization/blob/main/images/EPS%20Growth%20LY.png)
+![Others](https://github.com/jeffstpeterson/Diversity-Analysis-Visualization/blob/main/images/Other%20Comparison.png)
 
 Next part of the project is to determine a sentiment analysis differance
 
